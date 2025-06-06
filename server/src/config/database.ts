@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 // Use MongoDB Atlas connection string by default
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://hemannarayanan:12345@pr.vurmxpb.mongodb.net/?retryWrites=true&w=majority&appName=PR';
+const MONGODB_URI = process.env.MONGODB_URI || '';
 
 export const connectDB = async () => {
   try {
